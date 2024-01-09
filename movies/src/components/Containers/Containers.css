@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.static-container {
+  flex-shrink: 0;
+}
+
+.content-container {
+  flex-grow: 1;
+  overflow-y: auto;
+}

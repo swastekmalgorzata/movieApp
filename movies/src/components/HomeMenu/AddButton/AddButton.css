@@ -1,0 +1,20 @@
+.btn-add-button {
+  background-color: var(--bs-yellow);
+  color: var(--bs-dark);
+}
+
+.btn-add-button.active,
+.btn-add-button.show,
+.btn-add-button:first-child:active,
+.btn-add-button:not(.btn-check):active {
+  background-color: #d6a106;
+  color: var(--bs-light);
+  border-color: var(--bs-yellow);
+}
+
+.btn-add-button:first-child:hover,
+.btn-add-button:not(.btn-check):hover {
+  background-color: #d6a106;
+  color: var(--bs-light);
+  border-color: var(--bs-yellow);
+}

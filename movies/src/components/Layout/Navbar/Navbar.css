@@ -1,0 +1,14 @@
+.navbar-dark .navbar-brand .mingle {
+  color: var(--bs-yellow);
+}
+
+.icon-text-container {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.icon-text-container i {
+  margin-right: 10px;
+  color: var(--bs-yellow);
+}
